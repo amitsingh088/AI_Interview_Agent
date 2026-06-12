@@ -16,7 +16,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "https://ai-interview-agent1.onrender.com",
+    origin: "https://ai-interview-agent1.onrender.com",
     credentials: true,
   })
 );
