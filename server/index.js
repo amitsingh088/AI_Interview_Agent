@@ -14,7 +14,6 @@ dotenv.config();
 const app = express();
 
 // Middleware
-console.log("CLIENT_URL =", process.env.CLIENT_URL);
 app.use(
   cors({
     origin: "https://ai-interview-agent1.onrender.com",
